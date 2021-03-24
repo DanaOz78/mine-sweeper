@@ -1,0 +1,36 @@
+
+
+body {
+	background-color: aquamarine;
+    text-align: center;
+}
+
+.board {
+	padding-top: 60px;
+	width: 600px;
+	margin:auto;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 4px;
+    margin-left: 400px;
+}
+
+.cell {
+	background-color:darkgray;
+	width: 25px;
+	height: 25px;
+}
+.cell:hover{
+    background-color:dimgray;
+}
+.cell.shown {
+	background-color: lightgray;
+}
+.marked {
+    background-color: blueviolet;
+}
+.hint {
+    background-color: burlywood;
+}
