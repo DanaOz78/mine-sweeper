@@ -12,6 +12,7 @@ body {
 }
 
 table {
+	/*position:absolute;*/
 	border-collapse: separate;
 	border-spacing: 4px;
     margin-left: 400px;
@@ -31,6 +32,32 @@ table {
 .marked {
     background-color: blueviolet;
 }
+
+
+.baloon {
+	width: 40px;
+	display: inline-block;
+	
+}
+.baloons {
+	width: 34px;
+	display: inline-block;
+	
+}
 .hint {
-    background-color: burlywood;
+	width: 40px;
+	display: inline-block;
+	background-color:aquamarine;
+	
+}
+.hints {
+	width: 34px;
+	display: inline-block;
+	
+}
+.smiley {
+	width: 35px;
+	height: 35px;
+	background-color:aquamarine;
+
 }

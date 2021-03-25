@@ -9,24 +9,33 @@
 <body onload="init()">
 
     <h1>Mine Sweeper</h1>
-    <h2>Score:<span></span></h2>
-    <h3>Best Score:<span></span></h3>
+    <h3>Score:<span></span></h3>
+    <h4>Best Score:<span></span></h4>
+    <h4 class="timer"></h4>
     <button class="smiley" onclick="playAgain()">😀</button>
+    <button onclick="changeLevel(1)">beginner</button>
+    <button onclick="changeLevel(2)">Meduim</button>
+    <button onclick="changeLevel(3)">Expert</button>
 
     <table>
         <tbody class="board"></tbody>
     </table>
-    <h5 class ="baloon">🎈</h5>
-    <h5 class="baloon">🎈</h5>
-    <h5 class="baloon">🎈</h5>
-    <button onclick="getHint(this)">💡</button>
-    <button onclick="getHint(this)">💡</button>
-    <button onclick="getHint(this)">💡</button>
-    <button onclick="undo()">undo</button>
+    <div class="baloons">
+        <h5 class="baloon">🎈</h5>
+        <h5 class="baloon">🎈</h5>
+        <h5 class="baloon">🎈</h5>
+    </div>
+    <button class="safe" onclick=" getSafeClick(this)">safe click:<span> 3</span></button>
+    <div class="hints">
+    <button class="hint" onclick="createHint(this)">💡</button>
+    <button class="hint" onclick="createHint(this)">💡</button>
+    <button class="hint" onclick="createHint(this)">💡</button>
+</div>
 
 
 
-    
+
+
     <script src="js/main.js"></script>
 </body>
 
